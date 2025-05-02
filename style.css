@@ -1,0 +1,329 @@
+section img {
+    float: left; /* Float the image to the left */
+    margin: 0 1rem 1rem 0; /* Margin: right, top, bottom, left */
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 12px; /* Add rounded corners */
+}
+
+/* BODY STYLES */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(#2bdcee, #08818e); /* A linear gradient from pink to orange */
+    color: white; /* Dark grey text for readability */
+    line-height: 1.6;
+}
+
+/* CONTAINER STYLING */
+.container { 
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+}
+ 
+/* HEADER STYLES */
+header {
+    background-color: black; /* Dark background for strong header */
+    color: blanchedalmond; /* Blanchedalmond for visibility */
+    padding: 1rem 0;
+    text-align: center;
+}
+h1 {
+    background: linear-gradient(to right #6889ff, #c668ff);
+    background-clip: text;
+    color: transparent
+ }
+ 
+/* NAVIGATION BAR */
+nav {
+    background-color: orange; /* Orange for attention */
+    padding: 0.8rem 0;
+    text-align: center;
+}
+
+nav a:hover {
+    color: blueviolet; /* Hover effect for interactivity */
+} 
+
+/* SECTION STYLES */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    background: linear-gradient(#c668ff, #6889ff);
+    display: block; /* Corrected display property */
+    font-size: 1.8rem;
+}
+
+.card {
+    background: white; /* Changed to white for better visibility */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+    margin-bottom: 1.5rem; /* Corrected margin */
+}
+
+/* MENU AND SERVICES */
+.menu-item, .service-item {
+    margin-bottom: 1rem;
+}
+
+.menu-item h3, .service-item h3 {
+    color: blueviolet;
+    font-size: 1.2rem; /* Removed stray character */
+}
+
+/* FOOTER STYLES */
+footer {
+    background-color: rgb(126, 72, 114); /* Match header */
+    color: rgb(202, 191, 199); /* Changed for better contrast */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    header {
+        height: auto; /* Adjusted to auto for better responsiveness */
+        font-size: 2rem;                 
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+section img {
+    float: left; /* Float the image to the left */
+    margin: 0 1rem 1rem 0; /* Margin: right, top, bottom, left */
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 12px; /* Add rounded corners */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center the nav items */
+    background-color: orange; /* Match nav background color */
+}
+
+nav ul li {
+    margin: 0 1rem; /* Horizontal spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: blue; /* Text color */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: blueviolet; /* Hover color */
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Legend Styles */
+legend {
+    font-weight: bold;
+    color: #d9534f; /* Bootstrap danger color */
+}
+
+/* Input and Textarea Styles */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    background-color: #d9534f; /* Bootstrap danger color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+}
+
+/* Details Styles */
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+
+/* Section Heading Styles */
+h2 {
+    text-align: center;
+    color: #d9534f; /* Bootstrap danger color */
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 20px;
+}
+
+/* Address Styles */
+address {
+    font-style: normal; /* Remove italic style from address */
+    margin: 10px 0;
+}
+
+/* Link Styles */
+a {
+    color: #d9534f; /* Bootstrap danger color */
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+  
+  /* Container box for Get In Touch */
+  section.get-in-touch-box {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 25px 30px;
+    box-sizing: border-box;
+  }
+  
+  section.get-in-touch-box h2 {
+    color: #d9534f;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  section.get-in-touch-box p.intro {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 1.1rem;
+  }
+  
+  article {
+    margin-bottom: 25px;
+  }
+  
+  article h3 {
+    color: #333;
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  /* Icons next to text */
+  .icon {
+    color: #d9534f;
+    margin-right: 10px;
+    font-size: 1.25rem;
+    min-width: 24px;
+    text-align: center;
+  }
+  
+  /* Links styling */
+  a {
+    color: #d9534f;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social media list styles */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    justify-content: flex-start;
+  }
+
+  /* Responsive */
+  @media (max-width: 480px) {
+    section.get-in-touch-box {
+      padding: 20px;
+    }
+    .icon {
+      font-size: 1.1rem;
+      margin-right: 8px;
+      min-width: 20px;
+    }
+
+    address p, article p, ul li {
+      font-size: 0.95rem;
+    }
+  }
+  address {
+    display: block;
+    margin-bottom: 10px;
+    font-style: normal; /* Remove default italic */
+  }
+  
+  address + img {
+    display: block;
+    width: 120px;
+    margin: 10px auto 0 auto; /* top margin, centered horizontally */
+    border-radius: 6px; /* optional rounding */
+  }
+
+  /* Dining Area Styles */
+.dining-images {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center images horizontally */
+    gap: 10px; /* Space between images */
+    margin: 15px 0; /* Margin above and below the images */
+}
+
+.dining-images img {
+    width: 160px; /* Set width for images */
+    border-radius: 6px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
